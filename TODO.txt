@@ -1,0 +1,1 @@
+Edit class file to create flag for two versions: 1 for academic and 1 for industry based on same .tex file
