@@ -1,0 +1,194 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[grey]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Michael}
+\familyname{Nestrud}
+%\title{Resumé title (optional)}               % optional, remove the line if not wanted
+\address{79 Silver Leaf Way, Apt. \#31}{Marlborough, Massachusetts, 01752}    % optional, remove the line if not wanted
+%\mobile{mobile (optional)}                    % optional, remove the line if not wanted
+\phone{209-736-7679}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{mike@ataraxis.org}                      % optional, remove the line if not wanted
+%\homepage{homepage (optional)}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+\usepackage{multibib}
+%\newcites{journal,misc}{{Journal Publications},{Others}}
+\newcites{journal,conf,misc}{{Journal Publications},{Conference Proceedings},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\cvline{Research Interests}{Multivariate statistics, psychophysics, culinary science, statistical methods for sensory evaluation, measuring emotion, trigeminal irritation}
+
+\section{Education}
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+\cventry{2008--2011}{Ph.D.}{Cornell University}{Ithaca, New York, USA}{}{Major: Food Science-Sensory Evaluation, Minors: Flavor Chemistry, Psychology, Statistics}  
+\cventry{2006--2008}{B.S.}{Cornell University}{Ithaca, New York, USA}{\textit{magna cum laude}}{Major: Food Science}
+\cventry{2003--2004}{A.O.S.}{The Culinary Institute of America}{Hyde Park, New York, USA}{}{Major: Culinary Arts}
+
+%\section{Dissertation}
+%\cvline{title}{\emph{A Graph Theoretic Approach to Food Combination Problems}}
+%\cvline{supervisors}{Harry T. Lawless, Terry Acree, Bruce Halpern, Paul Velleman}
+%%\cvline{description}{\small Short thesis abstract}
+
+%\section{Experience}
+%\subsection{Vocational}
+%\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
+%Detailed achievements:%
+%\begin{itemize}%
+%\item Achievement 1;
+%\item Achievement 2, with sub-achievements:
+%  \begin{itemize}%
+%  \item Sub-achievement (a);
+%  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+%    \begin{itemize}
+%    \item Sub-sub-achievement i;
+%    \item Sub-sub-achievement ii;
+%    \item Sub-sub-achievement iii;
+%    \end{itemize}
+%  \item Sub-achievement (c);
+%  \end{itemize}
+%\item Achievement 3.
+%\end{itemize}}
+
+
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+%\subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
+\section{Honors and Awards}
+\cvline{2011-Present}{Oak Ridge Institute for Science \& Education Postdoctoral Research Fellowship}
+\cvline{2010}{IFT Sensory and Consumer Sciences Division Ph.D. Scholarship}
+\cvline{2010}{Cornell University Department of Food Science Frank \& Anne Kosikowski Award}
+\cvline{2009}{Rose Marie Pangborn Sensory Science Scholarship}
+\cvline{2009}{IFT Foundation Graduate Scholarship}
+\cvline{2009}{Institute for Perception Student Award}
+\cvline{2008--2011}{State University of New York Ph.D. Fellowship}
+\cvline{2008}{Society of Sensory Professionals Jean Caul Award}
+\cvline{2007}{Cornell Institute of Food Science Advisory Council Award}
+\cvline{2007}{Cornell Institute of Food Science Summer Scholar}
+\cvline{2007}{USDA Higher Education Scholar}
+\cvline{2007}{TIC Gums Achievement Award}
+\cvline{2007-Present}{Phi Tau Sigma Food Science Honor Society}
+\cvline{2003}{Culinary Institute of America Presidential Scholarship}
+\cvline{1997}{Eagle Scout}
+
+\section{Academic Experience}
+\cventry{2011--Present}{Postdoctoral Research Fellow}{U.S. Army Natick Research, Development \& Engineering Laboratory}{Natick, Massachusetts}{}{Engaged in research with the aim to improve warfighter performance.}
+
+\cventry{2008--2011}{Graduate Student}{Cornell University Department of Food Science}{Ithaca, New York}{}{Teaching experience included head teaching assistant for Sensory Evaluation of Food for Food Science seniors and head teaching assistant for the global sustainability seminar course for undergraduate and graduate students in the U.S.A., Honduras, Costa Rica, Australia and Switzerland.}
+
+\cventry{2004--2005}{Teaching Fellow}{The Culinary Institute of America}{Hyde Park, New York}{}{Taught students new culinary techniques while reinforcing old. Developed new course material on historical and modern American cuisine. Developed on-line presence for the class for the first time.}
+
+\section{Professional Experience}
+
+\cventry{2008--Present}{Consultant}{}{Marlborough, Massachusetts}{}{}
+
+\cventry{Summer 2005}{Product Development Intern}{The International Food Network}{Ithaca, New York}{}{
+\begin{itemize}
+\item Project lead developing a healthy margarine product for Fortune 500 client
+\item Developed sensory and physical property models to assess feasibility and performance of ingredient blends.
+\end{itemize}}
+
+\cventry{2004--2005}{Teaching Fellowship \& Sous Chef, American Bounty Restaurant}{The Culinary Institute of America}{Hyde Park, New York}{}{
+\begin{itemize}
+\item Trained students on new menu items every three weeks
+\item Developed new course lectures and training material
+\end{itemize}}
+
+\section{Computer skills}
+\cvcomputer{Scientific}{Excel, JMP, R, SPSS}{Operating Systems}{UNIX/Linux, Windows}
+\cvcomputer{Typography}{\LaTeX, Word}{Applications}{Illustrator, Powerpoint}
+\cvcomputer{Languages}{Bourne Shell, Java, HTML}{}{}
+
+\section{Professional Service}
+\subsection{Journal Reviewer}
+\cvitem{2011}{Journal of Food Science, Journal of Culinary Science}
+\cvitem{2010}{Journal of Food Science, Journal of Sensory Studies (2)}
+\cvitem{2009}{Journal of Food Science (2)}
+
+
+\subsection{Session Organizer}
+\cvitem{2010}{Society of Sensory Professionals: Student seminar on sensory principles of olive oil with chef guided tasting.}
+
+\subsection{Professional Organizations}
+\cvitem{2010--2011}{Society of Sensory Professionals: Executive committee, student member}
+\cvitem{2010--2011}{Institute of Food Technologists, Sensory and Consumer Sciences Division: Executive committee, student member}
+\cvitem{2009--2011}{Institute of Food Technologists, Sensory Science Annual Meeting Scientific Program Advisory Panel}
+
+
+%\section{Interests}
+%\cvline{hobby 1}{\small Description}
+%\cvline{hobby 2}{\small Description}
+%\cvline{hobby 3}{\small Description}
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol
+%
+%\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+%
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5 \cite{book1}}
+%\cvlistdoubleitem{Item 3}{}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{Nestrud}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+\section{Publications}
+\nocitejournal{Nestrud2011, Nestrud2010, Nestrud2008}
+\bibliographystylejournal{unsrt}
+\bibliographyjournal{Nestrud}   % 'publications' is the name of a BibTeX file
+
+\nociteconf{Loss2010,Nestrud2010b,Nestrud2010c,Nestrud2010a,Nestrud2010e,Nestrud2010g,Bauer2009,  Lawless2008a,Lawless2008,Nestrud2008d,Nestrud2008c,Nestrud2007}
+
+\bibliographystyleconf{unsrt}
+\bibliographyconf{Nestrud}   % 'publications' is the name of a BibTeX file
+
+\nocitemisc{Nestrud2010f,Nestrud2010d,Nestrud2009,Nestrud2009c,Nestrud2009a}
+\bibliographystylemisc{unsrt}
+\bibliographymisc{Nestrud}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
