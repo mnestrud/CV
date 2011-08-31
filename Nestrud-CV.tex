@@ -25,7 +25,7 @@
 \firstname{Michael}
 \familyname{Nestrud}
 %\title{Resumé title (optional)}               % optional, remove the line if not wanted
-\address{79 Silver Leaf Way, Apt. \#31}{Marlborough, Massachusetts, 01752}    % optional, remove the line if not wanted
+\address{79 Silver Leaf Way, Apt. \#31}{Marlborough, Massachusetts, 01752-2904}    % optional, remove the line if not wanted
 %\mobile{mobile (optional)}                    % optional, remove the line if not wanted
 \phone{209-736-7679}                      % optional, remove the line if not wanted
 %\fax{fax (optional)}                          % optional, remove the line if not wanted
@@ -43,7 +43,7 @@
 % bibliography with mutiple entries
 \usepackage{multibib}
 %\newcites{journal,misc}{{Journal Publications},{Others}}
-\newcites{journal,conf,misc}{{Journal Publications},{Conference Proceedings},{Others}}
+\newcites{journal,conf,misc,press}{{Journal Publications},{Conference Proceedings},{Others}, {Press}}
 
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 %----------------------------------------------------------------------------------
@@ -199,6 +199,13 @@
 \nocitemisc{Nestrud2010f,Nestrud2010d,Nestrud2009,Nestrud2009c,Nestrud2009a}
 \bibliographystylemisc{unsrt}
 \bibliographymisc{Nestrud}   % 'publications' is the name of a BibTeX file
+
+\section{Press}
+\nocitepress{Nestrud2011e,Nestrud2010h,Nestrud2009e, Nestrud2009d,Nestrud2007b,Nestrud2006a}
+\bibliographystylepress{unsrt}
+\bibliographypress{Nestrud}   % 'publications' is the name of a BibTeX file
+
+
 
 \end{document}
 
